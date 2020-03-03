@@ -3,11 +3,31 @@ entries:
   helm-chart-test:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-03-03T09:01:17.8540986+03:30"
+    created: "2020-03-03T09:13:10.8891807+03:30"
     description: A Helm chart for Kubernetes
     digest: 3e39addfce8d700478067050f229ebe0d1a5c1a5fa3d9ed821485e2f4cbf0153
     name: helm-chart-test
     urls:
     - https://afsan007.github.io/helm-chart/helm-chart-test-0.1.0.tgz
     version: 0.1.0
-generated: "2020-03-03T09:01:17.8530992+03:30"
+  myapp:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2020-03-03T09:13:10.8891807+03:30"
+    description: A Helm chart for Kubernetes
+    digest: 8c49d05d1fb2d983947a5c8e52eafed631f259a2f71f450c9fb79079aca83dbf
+    name: myapp
+    urls:
+    - https://afsan007.github.io/helm-chart/myapp-0.1.0.tgz
+    version: 0.1.0
+  mynginx:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2020-03-03T09:13:10.8901816+03:30"
+    description: A Helm chart for Kubernetes
+    digest: 6a696295425b4137313329939069764d674d871e15b554590d1bf900ac0de9fe
+    name: mynginx
+    urls:
+    - https://afsan007.github.io/helm-chart/mynginx-0.1.0.tgz
+    version: 0.1.0
+generated: "2020-03-03T09:13:10.8871797+03:30"
